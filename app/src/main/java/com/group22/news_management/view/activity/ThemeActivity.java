@@ -12,18 +12,18 @@ import com.group22.newsmanagerment.R;
 
 public class ThemeActivity extends AppCompatActivity {
 
-    Button back;
+    //Button back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theme_mode);
-        back = (Button) findViewById(R.id.btn_back4);
+        /*back = (Button) findViewById(R.id.btn_back4);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ThemeActivity.this, SettingsActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
     }
 }

@@ -86,6 +86,36 @@
         <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_intro.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/list_comment_item.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/menu/comment_appbar.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/acticity_custom_dialog.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_autoplay_video.xml" value="0.25" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_comment.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_comment_history.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_customdialog_cancelsave.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_home.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_intro.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_login.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_news.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_news_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_notification_page.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_policies_page.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_saved.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_settings.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_signup.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_termofuse_page.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_theme_mode.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_update_avatar.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_user_profile.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/activity_weather_forecast.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/categories_rv_item.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/comment_item.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/content_activity_saved.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/daily_weather_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/list_comment_item.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/news_rv_items.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/notification_item.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/trending.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/trends_rv_items.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vantien/Documents/GitHub/news-management/app/src/main/res/layout/view_comment_notification.xml" value="0.20092592592592592" />
       </map>
     </option>
   </component>

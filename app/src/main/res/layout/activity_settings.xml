@@ -1,99 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical">
-
-    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/top_appbar_setting"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_weight="1">
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:liftOnScroll="true"
+        tools:ignore="MissingConstraints">
 
-        <Button
-            android:id="@+id/btn_back2"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/ic_back1" />
-
-        <TextView
+        <com.google.android.material.appbar.MaterialToolbar
             android:layout_width="match_parent"
-            android:layout_height="58dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="48dp"
-            android:text="@string/thiet_lap"
-            android:textAlignment="center"
-            android:textSize="24sp">
+            android:layout_height="?attr/actionBarSize"
+            app:title="Thiết lập"
+            app:titleCentered="true"
+            app:titleTextAppearance="@style/font_normal"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            >
 
-        </TextView>
-    </LinearLayout>
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="67dp"
+        app:layout_constraintTop_toBottomOf="@+id/top_appbar_setting"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/divider6"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="vertical" >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/che_do"
-            android:textSize="24sp" />
         <Button
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            style="?android:attr/borderlessButtonStyle"
             android:id="@+id/btn_next0"
-            android:text=">"
-            android:textSize="24dp">
-
-        </Button>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/tu_dong"
-            android:textSize="24sp" />
+            android:fontFamily="@font/poppins"
+            android:text="Chế độ nền tối"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textAlignment="textStart"
+            android:drawableRight="@drawable/ic_chevron_right" />
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="67dp" />
+
         <Button
-            android:layout_width="48dp"
-            android:layout_height="48dp"
             android:id="@+id/btn_next1"
-            android:text=">"
-            android:textSize="24dp">
-
-        </Button>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/danh_sach_da_luu"
-            android:textSize="24sp" />
+            android:fontFamily="@font/poppins"
+            android:text="Tự động phát video"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textAlignment="textStart"
+            android:drawableRight="@drawable/ic_chevron_right"
+            />
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="67dp" />
+
         <Button
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            style="?android:attr/borderlessButtonStyle"
             android:id="@+id/btn_next2"
-            android:text=">"
-            android:textSize="24dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Danh sách đã lưu"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textAlignment="textStart"
+            android:drawableRight="@drawable/ic_chevron_right"
+            />
 
-        </Button>
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <View
+            android:id="@+id/divider10"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="67dp" />
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="5">
-
-    </LinearLayout>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
