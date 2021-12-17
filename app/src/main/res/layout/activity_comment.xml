@@ -34,6 +34,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@id/editTextComment"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/editTextComment"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/custom_button3"
         android:text="Gửi"

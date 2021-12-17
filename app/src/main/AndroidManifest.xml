@@ -26,10 +26,7 @@
         <activity
             android:name="com.group22.news_management.view.activity.WeatherForecastActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
 
         <activity
@@ -47,6 +44,10 @@
         <activity
             android:name="com.group22.news_management.view.activity.IntroActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.group22.news_management.view.activity.ThemeActivity"
