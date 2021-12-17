@@ -20,10 +20,10 @@
         android:layout_height="48dp"
         android:layout_marginStart="12dp"
         android:layout_marginBottom="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/comment_hint"
         android:background="#D0C6DD"
+        android:ems="10"
+        android:hint="@string/comment_hint"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnSubmitComment"
         app:layout_constraintStart_toStartOf="parent" />
@@ -32,27 +32,27 @@
         android:id="@+id/btnSubmitComment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@id/editTextComment"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintBaseline_toBaselineOf="@id/editTextComment"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:background="@drawable/custom_button3"
+        android:background="@color/mainColor"
         android:text="Gửi"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/editTextComment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/editTextComment" />
 
     <com.google.android.material.appbar.MaterialToolbar
-        app:layout_constraintBottom_toTopOf="@id/recyclerViewListComment"
         android:id="@+id/materialToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="@color/white"
         app:labelVisibilityMode="unlabeled"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:menu="@menu/comment_appbar"
         app:navigationIcon="@drawable/ic_arrow_back"
-        tools:ignore="BottomAppBar">
-
+        tools:ignore="BottomAppBar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="0dp">
     </com.google.android.material.appbar.MaterialToolbar>
 </androidx.constraintlayout.widget.ConstraintLayout>
