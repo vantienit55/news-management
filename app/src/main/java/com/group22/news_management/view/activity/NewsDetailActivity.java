@@ -59,20 +59,20 @@ public class NewsDetailActivity extends AppCompatActivity {
                     break;
                 }
                 case R.id.icon_font_size:{
-                    Toast.makeText(NewsDetailActivity.this, "icon_font_size", Toast.LENGTH_SHORT).show();
-                   /* webView1 = (WebView) findViewById(R.id.webView);
-                    spinner1 = (Spinner) findViewById(R.id.icon_font_size);
+                   // Toast.makeText(NewsDetailActivity.this, "icon_font_size", Toast.LENGTH_SHORT).show();
+                    webView1 = (WebView) findViewById(R.id.webView);
+                    /*spinner1 = (Spinner) findViewById(R.id.icon_font_size);
                     ArrayList<String> arraySize = new ArrayList<String>();
                     arraySize.add("To");
                     arraySize.add("Vua");
                     arraySize.add("Nho");
                     ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, arraySize);
-                    spinner1.setAdapter(arrayAdapter);
+                    spinner1.setAdapter(arrayAdapter);*/
                     final WebSettings webSettings = webView1.getSettings();
                     //webSettings.setTextSize(WebSettings.TextSize.SMALLEST);
                     Resources res = getResources();
                     float fontSize = res.getInteger(R.integer.size_To);
-                    webSettings.setDefaultFontSize((int) fontSize);*/
+                    webSettings.setDefaultFontSize((int) fontSize);
                     break;
                 }
             }
